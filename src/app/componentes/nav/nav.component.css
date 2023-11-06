@@ -1,0 +1,16 @@
+.nav{
+    font-family: var(--fontTitle), sans-serif;
+    color: var(--colorPrimary);
+}
+
+.nav-btn{
+    background-color: var(--colorPrimary);
+    color: #FFFFFF;
+    border-color: transparent;
+}
+
+.nav-btn:hover{
+    background-color: var(--colorHover);
+    color: var(--colorText);
+}
+
