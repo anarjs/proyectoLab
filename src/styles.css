@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorPrimary: #606C38;
+    --colorSecondary: #DC9732;
+    --colorAlert: #BD3434;
+    --colorHover:#B4CB6A;
+    --colorText: #010101;
+
+    --fontTitle: 'Pattaya';
+    --fontSubtitles: 'Raleway';
+    --fontText: 'Cabin';
+}

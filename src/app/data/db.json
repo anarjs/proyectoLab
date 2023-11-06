@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user1@example.com",
+      "fullName": "John Doe",
+      "password": "password123",
+      "addedRecipes": ["1", "2"],
+      "favoriteRecipes": ["2", "3"]
+    },
+    {
+      "id": "2",
+      "email": "user2@example.com",
+      "fullName": "Jane Doe",
+      "password": "password456",
+      "addedRecipes": ["3"],
+      "favoriteRecipes": ["1", "2"]
+    }
+  ],
+  
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Recipe 1",
+      "user": "1",
+      "numIngredients": 3,
+      "ingredients": [
+        {
+          "name": "ingredient1",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "ingredient2",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "ingredient3",
+          "quantity": 3,
+          "unit": "teaspoon"
+        }
+      ],
+      "steps": [
+        "step1",
+        "step2",
+        "step3"
+      ],
+      "description": "This is a description of Recipe 1",
+      "numServings": 4,
+      "image": "https://spoonacular.com/recipeImages/716429-556x370.jpg",
+      "imageType": "jpg",
+      "category": "Dessert",
+     "dietType": "Vegetarian",
+    "prepTime": "30 minutes",
+    "difficulty": "Easy"
+    },
+    {
+      "id": "2",
+      "title": "Recipe 2",
+      "user": "1",
+      "numIngredients": 3,
+      "ingredients": [
+        {
+          "name": "ingredient1",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "ingredient2",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "ingredient3",
+          "quantity": 3,
+          "unit": "teaspoon"
+        }
+      ],
+      "steps": [
+        "step1",
+        "step2",
+        "step3"
+      ],
+      "description": "This is a description of Recipe 1",
+      "numServings": 4,
+      "image": "https://spoonacular.com/recipeImages/716429-556x370.jpg",
+      "imageType": "jpg",
+      "category": "Dessert",
+     "dietType": "Vegetarian",
+    "prepTime": "30 minutes",
+    "difficulty": "Easy"
+    },
+    {
+      "id": "3",
+      "title": "Recipe 3",
+      "user": "2",
+      "numIngredients": 3,
+      "ingredients": [
+        {
+          "name": "ingredient1",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "ingredient2",
+          "quantity": 2,
+          "unit": "tablespoon"
+        },
+        {
+          "name": "ingredient3",
+          "quantity": 3,
+          "unit": "teaspoon"
+        }
+      ],
+      "steps": [
+        "step1",
+        "step2",
+        "step3"
+      ],
+      "description": "This is a description of Recipe 1",
+      "numServings": 4,
+      "image": "https://spoonacular.com/recipeImages/716429-556x370.jpg",
+      "imageType": "jpg",
+      "category": "Dessert",
+     "dietType": "Vegetarian",
+    "prepTime": "30 minutes",
+    "difficulty": "Easy"
+    }
+  ]
+}
